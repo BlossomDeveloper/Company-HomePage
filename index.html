@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="logo"><a class="nav-link" href="#home">Healthiest food</a></div>
+          <ul class="links">
+            <li><a class="nav-link" href="mission"> Mission </a></li>
+            <li><a class="nav-link" href="gallery"> Gallery </a></li>
+            <li><a class="nav-link" href="contact">Contact </a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container" id="mission">
+        <div class="mission" >
+          <h2>Our mission is to be healthier!</h2>
+          <h3>So you can always take stunning and healthy food wherever you go!
+          </h3>
+        </div>
+      </div>
+      <div class="container" id="gallery">
+        <div class="gallery">
+          <div class="img1">
+          </div>
+          <p class="text">Our breakfast: Homemade fig granola</p>
+        </div>
+        <div class="gallery">
+          <div class="img2">
+          </div>
+          <p class="text">Our bestseller: Kale, tomatoes, sunflower seeds & couscous</p>
+        </div>
+        <div class="gallery">
+          <div class="img3">
+          </div>
+          <p class="text">Our favorite dessert: Banana and blueberry crumble</p>
+        </div>
+      </div>
+      <div class="container" id="contact">
+        <div class="contact">
+          <h2>Where you will find us:</h2>
+          <h4>Garden's St 103, Dublin</h4>
+          <h4>78675-235465</h4>
+          <h4>contactus@healthiestfood.com</h4>
+        </div>
+        <div class="reach">
+          <h2>If you want to make a reservation of have any questions, please fill the form below:</h2>
+          <form>
+            <fieldset>
+              <label for="fname">First name:</label><br>
+              <input type="text" id="fname" name="fname" placeholder="Enter your first name" required><br>
+              <label for="lname">Last name:</label><br>
+              <input type="text" id="lname" name="lname" placeholder="Enter your last name" required><br>
+              <label for="phone">Contact number:</label><br>
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{5}-[0-9]{6}" placeholder="12345-456789"><br>
+              <label for="email">Email address:</label><br>
+              <input type="email" id="email" name="email" placeholder="Enter your email address" required><br>
+              <label for="options">Select one of the options: </label><br>
+              <input type="radio" id="reservation" name="option" value="Reservation">
+              <label for="reservation">Reservation</label><br>
+              <input type="radio" id="question" name="option" value="question">
+              <label for="questions">Any questions, type them on the textarea below:</label><br>
+              <textarea name="text" rows="8" cols="50"></textarea><br><br>
+              <input type="submit" value="Submit">
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <h4> © copyright Healthiest Food 2023</h4>
+    </footer>
+  </body>
+</html>
